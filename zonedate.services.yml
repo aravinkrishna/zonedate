@@ -1,0 +1,4 @@
+services:
+  zonedate_service.datetime:
+    class: Drupal\zonedate\ZoneDateService
+    arguments: ['@config.factory']

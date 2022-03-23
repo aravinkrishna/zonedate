@@ -1,0 +1,9 @@
+zonedate.settings_form:  
+  path: '/admin/config/zonedate/adminsettings'  
+  defaults:  
+    _form: '\Drupal\zonedate\Form\ZoneDateForm' 
+    _title: 'Zone Date Form'  
+  requirements:  
+    _permission: 'administer site configuration'  
+  options:  
+    _admin_route: TRUE  

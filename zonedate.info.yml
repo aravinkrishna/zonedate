@@ -1,0 +1,8 @@
+name: Zone Date  
+type: module
+description: Displays time for the selected zone  
+core_version_requirement: ^9  
+package: Custom  
+configure: zonedate.settings_form
+dependencies:
+  - drupal:block
